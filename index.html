@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <style>
+    body  {
+  background-color: #222831;
+}
+    </style>
+    <title>Arcade - Pacman</title>
+  </head>
+<body>
+  <marquee><p class="mainFont">Emulator by: <a href="https://neptunjs.xyz/n64.html">NeptunJS (Urbain Jean Joseph Le Verrier)</a></p></marquee>
+<style>
+.mainFont {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+  h1 {
+    font-family: 'Product Sans Regular', arial, sans-serif;
+     font-weight:bold;
+     font-style:normal;
+  color: white;  
+    
+  }   
+</style>
+<script>
+ 
+var NepPlayer = "#player";     
+// ID of html element where emulator will be inserted
+ 
+var NepEmu = "arcade";         
+// Platform select
+ 
+var NepLang = "en";
+// Option "en,rus,ptBR,ja"
+// Interface language of emulator. EN by default
+ 
+var gameUrl = "https://filesus3.retrogames.cc/rom/19/new/pacman.zip"; // Game Url 
+</script>
+<script src="njs/njsLoader.js" type="text/javascript"> //NeptunJS lib
+</script>
+<div id="player"></div>
+  </body>
+</html>
